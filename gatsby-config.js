@@ -219,6 +219,12 @@ module.exports = {
                 },
             },
         },
+        {
+            resolve: `gatsby-plugin-disqus`,
+            options: {
+                shortname: `dailybreakpoint`,
+            },
+        },
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
